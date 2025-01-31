@@ -47,8 +47,8 @@ public class WeekDaysHandleTest {
     @Test
     void testGetSolicitedDay() {
         manager.createListDays();
-        assertEquals("Monday", manager.getDay(0));
-        assertNull(manager.getDay(10));
+        assertEquals("Monday", manager.getSolicitedDay(0));
+        assertNull(manager.getSolicitedDay(10));
     }
 
     @Test
