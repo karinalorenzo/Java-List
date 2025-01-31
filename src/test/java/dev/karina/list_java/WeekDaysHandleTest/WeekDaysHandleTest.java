@@ -38,10 +38,10 @@ public class WeekDaysHandleTest {
     }
 
     @Test
-    void testDeleteDays() {
-        int sizeIndex = manager.getSizeList();
+    void testDeleteDay() {
         manager.createListDays();
-        assertEquals(sizeIndex - 1, manager.getSizeList());
+        manager.deleteDay("Monday");
+        assertEquals(6, manager.getSizeList());
     }
 
     @Test
@@ -62,7 +62,9 @@ public class WeekDaysHandleTest {
     void testOrderDays() {
         manager.createListDays();
         manager.orderDays();
-        assertEquals("Sunday", manager.getWeekDays());
+        List<String> days = manager.getWeekDays();
+        assertEquals("Friday", days.get(0));
+        assertEquals("Wednesday", days.get(6));
     }
 
     @Test

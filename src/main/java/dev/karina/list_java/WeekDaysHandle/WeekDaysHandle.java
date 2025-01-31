@@ -25,7 +25,7 @@ public class WeekDaysHandle {
         return weekDays.size();
     }
 
-    public void deleteDays(String day) {
+    public void deleteDay(String day) {
         weekDays.remove(day);
     }
 
