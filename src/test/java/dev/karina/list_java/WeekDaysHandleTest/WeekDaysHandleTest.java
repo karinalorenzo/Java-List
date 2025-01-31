@@ -14,12 +14,12 @@ void setUp(){
 }
 
 @Test
-void testCreateList(){
+void testCreateListDays(){
 
 }
 
 @Test
-void testGetDaysWeek(){
+void testGetWeekDays(){
     
 }
 @Test
