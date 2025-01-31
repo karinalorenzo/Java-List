@@ -9,7 +9,7 @@ public class WeekDaysHandle {
 
     }
 
-    public void CreateListDays(){
+    public void createListDays(){
 
     }
 
@@ -17,7 +17,7 @@ public class WeekDaysHandle {
         return null;
     }
 
-    public int GetSizeList(){
+    public int getSizeList(){
         return 0;
     }
 
@@ -38,7 +38,7 @@ public class WeekDaysHandle {
     }
 
     public void emptyList(){
-        
+
     }
 
 
