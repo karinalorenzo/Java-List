@@ -14,7 +14,7 @@ This project implement a class in Java for gestioned the days of the week, inclu
     - A method that order the list for alphabetic order
     - A methot for empty the list
  
-## Status: IN PROGESS
+## Status: DONE 🚀
 
 ## Tecnologies used:
 
